@@ -4,9 +4,6 @@ def main():
     weight_on_Jupiter = float(weight_on_Earth) * 2.53
     print("\nOn Mercury you would weigh %.2f pounds.\nOn Jupiter you would weigh %.2f pounds." %(weight_on_Mercury, weight_on_Jupiter))
 
-# Making a small change
-# NOTE: This means if the code is run as `python3 planets.py`, run the
-# main function.  If the code is merely imported, don't do anything.
 if __name__ == '__main__':
     main()
 
